@@ -1,0 +1,295 @@
+2016-03-18 21:09:41 [4194] [INFO] Handling signal: term
+2016-03-18 21:09:41 [4200] [INFO] Worker exiting (pid: 4200)
+2016-03-18 17:09:41 [4199] [INFO] Worker exiting (pid: 4199)
+2016-03-18 21:09:41 [4194] [INFO] Shutting down: Master
+2016-03-18 21:09:42 [4299] [INFO] Starting gunicorn 17.5
+2016-03-18 21:09:42 [4299] [INFO] Listening at: http://0.0.0.0:8000 (4299)
+2016-03-18 21:09:42 [4299] [INFO] Using worker: sync
+2016-03-18 21:09:42 [4304] [INFO] Booting worker with pid: 4304
+2016-03-18 21:09:42 [4305] [INFO] Booting worker with pid: 4305
+2016-03-18 21:18:41 [4299] [INFO] Handling signal: term
+2016-03-18 21:18:41 [4304] [INFO] Worker exiting (pid: 4304)
+2016-03-18 17:18:41 [4305] [INFO] Worker exiting (pid: 4305)
+2016-03-18 21:18:41 [4299] [INFO] Shutting down: Master
+2016-03-18 21:18:41 [4436] [INFO] Starting gunicorn 17.5
+2016-03-18 21:18:41 [4436] [INFO] Listening at: http://0.0.0.0:8000 (4436)
+2016-03-18 21:18:41 [4436] [INFO] Using worker: sync
+2016-03-18 21:18:41 [4441] [INFO] Booting worker with pid: 4441
+2016-03-18 21:18:41 [4442] [INFO] Booting worker with pid: 4442
+2016-03-18 21:23:43 [4436] [INFO] Handling signal: term
+2016-03-18 17:23:43 [4441] [INFO] Worker exiting (pid: 4441)
+2016-03-18 17:23:43 [4442] [INFO] Worker exiting (pid: 4442)
+2016-03-18 21:23:43 [4436] [INFO] Shutting down: Master
+2016-03-18 21:23:43 [4630] [INFO] Starting gunicorn 17.5
+2016-03-18 21:23:43 [4630] [INFO] Listening at: http://0.0.0.0:8000 (4630)
+2016-03-18 21:23:43 [4630] [INFO] Using worker: sync
+2016-03-18 21:23:43 [4635] [INFO] Booting worker with pid: 4635
+2016-03-18 21:23:43 [4636] [INFO] Booting worker with pid: 4636
+2016-03-18 21:28:05 [4630] [INFO] Handling signal: term
+2016-03-18 17:28:05 [4635] [INFO] Worker exiting (pid: 4635)
+2016-03-18 17:28:05 [4636] [INFO] Worker exiting (pid: 4636)
+2016-03-18 21:28:06 [4630] [INFO] Shutting down: Master
+2016-03-18 21:28:06 [4734] [INFO] Starting gunicorn 17.5
+2016-03-18 21:28:06 [4734] [INFO] Listening at: http://0.0.0.0:8000 (4734)
+2016-03-18 21:28:06 [4734] [INFO] Using worker: sync
+2016-03-18 21:28:06 [4739] [INFO] Booting worker with pid: 4739
+2016-03-18 21:28:06 [4740] [INFO] Booting worker with pid: 4740
+2016-03-18 21:28:42 [4734] [INFO] Handling signal: term
+2016-03-18 17:28:42 [4739] [INFO] Worker exiting (pid: 4739)
+2016-03-18 21:28:42 [4740] [INFO] Worker exiting (pid: 4740)
+2016-03-18 21:28:42 [4734] [INFO] Shutting down: Master
+2016-03-18 21:28:43 [4824] [INFO] Starting gunicorn 17.5
+2016-03-18 21:28:43 [4824] [INFO] Listening at: http://0.0.0.0:8000 (4824)
+2016-03-18 21:28:43 [4824] [INFO] Using worker: sync
+2016-03-18 21:28:43 [4829] [INFO] Booting worker with pid: 4829
+2016-03-18 21:28:43 [4830] [INFO] Booting worker with pid: 4830
+2016-03-18 21:30:07 [4824] [INFO] Handling signal: term
+2016-03-18 17:30:07 [4829] [INFO] Worker exiting (pid: 4829)
+2016-03-18 21:30:07 [4830] [INFO] Worker exiting (pid: 4830)
+2016-03-18 21:30:07 [4824] [INFO] Shutting down: Master
+2016-03-18 21:30:08 [4916] [INFO] Starting gunicorn 17.5
+2016-03-18 21:30:08 [4916] [INFO] Listening at: http://0.0.0.0:8000 (4916)
+2016-03-18 21:30:08 [4916] [INFO] Using worker: sync
+2016-03-18 21:30:08 [4921] [INFO] Booting worker with pid: 4921
+2016-03-18 21:30:08 [4922] [INFO] Booting worker with pid: 4922
+2016-03-18 21:31:06 [4916] [INFO] Handling signal: term
+2016-03-18 17:31:06 [4921] [INFO] Worker exiting (pid: 4921)
+2016-03-18 21:31:06 [4922] [INFO] Worker exiting (pid: 4922)
+2016-03-18 21:31:06 [4916] [INFO] Shutting down: Master
+2016-03-18 21:31:07 [5006] [INFO] Starting gunicorn 17.5
+2016-03-18 21:31:07 [5006] [INFO] Listening at: http://0.0.0.0:8000 (5006)
+2016-03-18 21:31:07 [5006] [INFO] Using worker: sync
+2016-03-18 21:31:07 [5011] [INFO] Booting worker with pid: 5011
+2016-03-18 21:31:07 [5012] [INFO] Booting worker with pid: 5012
+2016-03-18 21:31:39 [5006] [INFO] Handling signal: term
+2016-03-18 17:31:39 [5011] [INFO] Worker exiting (pid: 5011)
+2016-03-18 21:31:39 [5012] [INFO] Worker exiting (pid: 5012)
+2016-03-18 21:31:39 [5006] [INFO] Shutting down: Master
+2016-03-18 21:31:39 [5095] [INFO] Starting gunicorn 17.5
+2016-03-18 21:31:39 [5095] [INFO] Listening at: http://0.0.0.0:8000 (5095)
+2016-03-18 21:31:39 [5095] [INFO] Using worker: sync
+2016-03-18 21:31:39 [5100] [INFO] Booting worker with pid: 5100
+2016-03-18 21:31:39 [5101] [INFO] Booting worker with pid: 5101
+2016-03-18 21:32:21 [5095] [INFO] Handling signal: term
+2016-03-18 17:32:21 [5100] [INFO] Worker exiting (pid: 5100)
+2016-03-18 21:32:21 [5101] [INFO] Worker exiting (pid: 5101)
+2016-03-18 21:32:21 [5095] [INFO] Shutting down: Master
+2016-03-18 21:32:22 [5183] [INFO] Starting gunicorn 17.5
+2016-03-18 21:32:22 [5183] [INFO] Listening at: http://0.0.0.0:8000 (5183)
+2016-03-18 21:32:22 [5183] [INFO] Using worker: sync
+2016-03-18 21:32:22 [5188] [INFO] Booting worker with pid: 5188
+2016-03-18 21:32:22 [5189] [INFO] Booting worker with pid: 5189
+2016-03-18 21:33:36 [5183] [INFO] Handling signal: term
+2016-03-18 17:33:36 [5188] [INFO] Worker exiting (pid: 5188)
+2016-03-18 17:33:36 [5189] [INFO] Worker exiting (pid: 5189)
+2016-03-18 21:33:36 [5183] [INFO] Shutting down: Master
+2016-03-18 21:33:36 [5275] [INFO] Starting gunicorn 17.5
+2016-03-18 21:33:36 [5275] [INFO] Listening at: http://0.0.0.0:8000 (5275)
+2016-03-18 21:33:36 [5275] [INFO] Using worker: sync
+2016-03-18 21:33:36 [5280] [INFO] Booting worker with pid: 5280
+2016-03-18 21:33:36 [5281] [INFO] Booting worker with pid: 5281
+2016-03-18 21:34:23 [5275] [INFO] Handling signal: term
+2016-03-18 17:34:23 [5280] [INFO] Worker exiting (pid: 5280)
+2016-03-18 21:34:23 [5281] [INFO] Worker exiting (pid: 5281)
+2016-03-18 21:34:24 [5275] [INFO] Shutting down: Master
+2016-03-18 21:34:24 [5362] [INFO] Starting gunicorn 17.5
+2016-03-18 21:34:24 [5362] [INFO] Listening at: http://0.0.0.0:8000 (5362)
+2016-03-18 21:34:24 [5362] [INFO] Using worker: sync
+2016-03-18 21:34:24 [5367] [INFO] Booting worker with pid: 5367
+2016-03-18 21:34:24 [5368] [INFO] Booting worker with pid: 5368
+2016-03-18 21:35:17 [5362] [INFO] Handling signal: term
+2016-03-18 17:35:17 [5368] [INFO] Worker exiting (pid: 5368)
+2016-03-18 17:35:17 [5367] [INFO] Worker exiting (pid: 5367)
+2016-03-18 21:35:17 [5362] [INFO] Shutting down: Master
+2016-03-18 21:35:18 [5460] [INFO] Starting gunicorn 17.5
+2016-03-18 21:35:18 [5460] [INFO] Listening at: http://0.0.0.0:8000 (5460)
+2016-03-18 21:35:18 [5460] [INFO] Using worker: sync
+2016-03-18 21:35:18 [5465] [INFO] Booting worker with pid: 5465
+2016-03-18 21:35:18 [5466] [INFO] Booting worker with pid: 5466
+2016-03-18 21:39:26 [5460] [INFO] Handling signal: term
+2016-03-18 17:39:26 [5465] [INFO] Worker exiting (pid: 5465)
+2016-03-18 17:39:26 [5466] [INFO] Worker exiting (pid: 5466)
+2016-03-18 21:39:26 [5460] [INFO] Shutting down: Master
+2016-03-18 21:39:27 [5560] [INFO] Starting gunicorn 17.5
+2016-03-18 21:39:27 [5560] [INFO] Listening at: http://0.0.0.0:8000 (5560)
+2016-03-18 21:39:27 [5560] [INFO] Using worker: sync
+2016-03-18 21:39:27 [5565] [INFO] Booting worker with pid: 5565
+2016-03-18 21:39:27 [5566] [INFO] Booting worker with pid: 5566
+2016-03-18 21:40:32 [5560] [INFO] Handling signal: term
+2016-03-18 17:40:32 [5565] [INFO] Worker exiting (pid: 5565)
+2016-03-18 17:40:32 [5566] [INFO] Worker exiting (pid: 5566)
+2016-03-18 21:40:32 [5560] [INFO] Shutting down: Master
+2016-03-18 21:40:33 [5655] [INFO] Starting gunicorn 17.5
+2016-03-18 21:40:33 [5655] [INFO] Listening at: http://0.0.0.0:8000 (5655)
+2016-03-18 21:40:33 [5655] [INFO] Using worker: sync
+2016-03-18 21:40:33 [5660] [INFO] Booting worker with pid: 5660
+2016-03-18 21:40:33 [5661] [INFO] Booting worker with pid: 5661
+2016-03-18 21:42:09 [5655] [INFO] Handling signal: term
+2016-03-18 17:42:09 [5660] [INFO] Worker exiting (pid: 5660)
+2016-03-18 17:42:09 [5661] [INFO] Worker exiting (pid: 5661)
+2016-03-18 21:42:09 [5655] [INFO] Shutting down: Master
+2016-03-18 21:42:09 [5747] [INFO] Starting gunicorn 17.5
+2016-03-18 21:42:09 [5747] [INFO] Listening at: http://0.0.0.0:8000 (5747)
+2016-03-18 21:42:09 [5747] [INFO] Using worker: sync
+2016-03-18 21:42:09 [5752] [INFO] Booting worker with pid: 5752
+2016-03-18 21:42:09 [5753] [INFO] Booting worker with pid: 5753
+2016-03-18 21:44:14 [5747] [INFO] Handling signal: term
+2016-03-18 17:44:14 [5752] [INFO] Worker exiting (pid: 5752)
+2016-03-18 17:44:14 [5753] [INFO] Worker exiting (pid: 5753)
+2016-03-18 21:44:14 [5747] [INFO] Shutting down: Master
+2016-03-18 21:44:14 [5846] [INFO] Starting gunicorn 17.5
+2016-03-18 21:44:14 [5846] [INFO] Listening at: http://0.0.0.0:8000 (5846)
+2016-03-18 21:44:14 [5846] [INFO] Using worker: sync
+2016-03-18 21:44:14 [5851] [INFO] Booting worker with pid: 5851
+2016-03-18 21:44:14 [5852] [INFO] Booting worker with pid: 5852
+2016-03-18 21:48:50 [5846] [INFO] Handling signal: term
+2016-03-18 17:48:50 [5851] [INFO] Worker exiting (pid: 5851)
+2016-03-18 17:48:50 [5852] [INFO] Worker exiting (pid: 5852)
+2016-03-18 21:48:51 [5846] [INFO] Shutting down: Master
+2016-03-18 21:48:51 [5979] [INFO] Starting gunicorn 17.5
+2016-03-18 21:48:51 [5979] [INFO] Listening at: http://0.0.0.0:8000 (5979)
+2016-03-18 21:48:51 [5979] [INFO] Using worker: sync
+2016-03-18 21:48:51 [5986] [INFO] Booting worker with pid: 5986
+2016-03-18 21:48:51 [5987] [INFO] Booting worker with pid: 5987
+2016-03-18 17:48:57 [5986] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 196, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 324, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 88, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 613, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 705, in date
+    return format(value, arg)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 312, in format
+    return df.format(format_string)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 216, in r
+    return self.format('D, j M Y H:i:s O')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 100, in force_text
+    s = s.__unicode__()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 138, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 76, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 281, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 263, in do_translate
+    _default = translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 177, in translation
+    default_translation = _fetch(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 159, in _fetch
+    app = import_module(appname)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImportError: No module named qa
+2016-03-18 17:49:06 [5987] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 196, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 324, in get_traceback_html
+    return t.render(c)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 88, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 613, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 705, in date
+    return format(value, arg)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 312, in format
+    return df.format(format_string)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 216, in r
+    return self.format('D, j M Y H:i:s O')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 100, in force_text
+    s = s.__unicode__()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 138, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 76, in ugettext
+    return _trans.ugettext(message)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 281, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 263, in do_translate
+    _default = translation(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 177, in translation
+    default_translation = _fetch(settings.LANGUAGE_CODE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 159, in _fetch
+    app = import_module(appname)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImportError: No module named qa
+2016-03-18 21:53:18 [5979] [INFO] Handling signal: term
+2016-03-18 17:53:18 [5986] [INFO] Worker exiting (pid: 5986)
+2016-03-18 17:53:18 [5987] [INFO] Worker exiting (pid: 5987)
+2016-03-18 21:53:18 [5979] [INFO] Shutting down: Master
+2016-03-18 21:53:19 [6145] [INFO] Starting gunicorn 17.5
+2016-03-18 21:53:19 [6145] [INFO] Listening at: http://0.0.0.0:8000 (6145)
+2016-03-18 21:53:19 [6145] [INFO] Using worker: sync
+2016-03-18 21:53:19 [6150] [INFO] Booting worker with pid: 6150
+2016-03-18 21:53:20 [6151] [INFO] Booting worker with pid: 6151
+2016-03-18 21:59:38 [6145] [INFO] Handling signal: term
+2016-03-18 17:59:38 [6150] [INFO] Worker exiting (pid: 6150)
+2016-03-18 17:59:38 [6151] [INFO] Worker exiting (pid: 6151)
+2016-03-18 21:59:38 [6145] [INFO] Shutting down: Master
+2016-03-18 21:59:38 [6249] [INFO] Starting gunicorn 17.5
+2016-03-18 21:59:38 [6249] [INFO] Listening at: http://0.0.0.0:8000 (6249)
+2016-03-18 21:59:38 [6249] [INFO] Using worker: sync
+2016-03-18 21:59:38 [6254] [INFO] Booting worker with pid: 6254
+2016-03-18 21:59:38 [6255] [INFO] Booting worker with pid: 6255
+2016-03-18 22:12:13 [6249] [INFO] Handling signal: term
+2016-03-18 18:12:13 [6254] [INFO] Worker exiting (pid: 6254)
+2016-03-18 18:12:13 [6255] [INFO] Worker exiting (pid: 6255)
+2016-03-18 22:12:13 [6249] [INFO] Shutting down: Master
+2016-03-18 23:48:46 [1518] [INFO] Starting gunicorn 17.5
+2016-03-18 23:48:46 [1518] [INFO] Listening at: http://0.0.0.0:8000 (1518)
+2016-03-18 23:48:46 [1518] [INFO] Using worker: sync
+2016-03-18 23:48:46 [1569] [INFO] Booting worker with pid: 1569
+2016-03-18 23:48:46 [1588] [INFO] Booting worker with pid: 1588
+2016-03-18 23:53:14 [1518] [INFO] Handling signal: term
+2016-03-18 23:53:14 [1569] [INFO] Worker exiting (pid: 1569)
+2016-03-18 23:53:14 [1588] [INFO] Worker exiting (pid: 1588)
+2016-03-18 23:53:14 [1518] [INFO] Shutting down: Master
+2016-03-18 23:53:15 [3247] [INFO] Starting gunicorn 17.5
+2016-03-18 23:53:15 [3247] [INFO] Listening at: http://0.0.0.0:8000 (3247)
+2016-03-18 23:53:15 [3247] [INFO] Using worker: sync
+2016-03-18 23:53:15 [3252] [INFO] Booting worker with pid: 3252
+2016-03-18 23:53:15 [3253] [INFO] Booting worker with pid: 3253

@@ -1,15 +1,15 @@
 CONFIG = {
-    'mode': 'wsgi',
+    'mode': 'django',
     #'environment': {
     #    'PYTHONPATH': '/path/to/custom/python/packages',
     #},
-    'working_dir': '/home/box/web',
+    'working_dir': '/path/to/my/app',
     'args': (
-        '--bind=0.0.0.0:8080',
+        '--bind=127.0.0.1:8080',
 	#'--daemon',
         '--workers=2',
         # '--worker-class=egg:gunicorn#sync',
         '--timeout=30',
-        'hello.app',
+        'settings',
     ),
 }

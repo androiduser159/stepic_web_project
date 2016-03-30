@@ -1,346 +1,408 @@
-2016-03-18 21:09:41 [4194] [INFO] Handling signal: term
-2016-03-18 21:09:41 [4200] [INFO] Worker exiting (pid: 4200)
-2016-03-18 17:09:41 [4199] [INFO] Worker exiting (pid: 4199)
-2016-03-18 21:09:41 [4194] [INFO] Shutting down: Master
-2016-03-18 21:09:42 [4299] [INFO] Starting gunicorn 17.5
-2016-03-18 21:09:42 [4299] [INFO] Listening at: http://0.0.0.0:8000 (4299)
-2016-03-18 21:09:42 [4299] [INFO] Using worker: sync
-2016-03-18 21:09:42 [4304] [INFO] Booting worker with pid: 4304
-2016-03-18 21:09:42 [4305] [INFO] Booting worker with pid: 4305
-2016-03-18 21:18:41 [4299] [INFO] Handling signal: term
-2016-03-18 21:18:41 [4304] [INFO] Worker exiting (pid: 4304)
-2016-03-18 17:18:41 [4305] [INFO] Worker exiting (pid: 4305)
-2016-03-18 21:18:41 [4299] [INFO] Shutting down: Master
-2016-03-18 21:18:41 [4436] [INFO] Starting gunicorn 17.5
-2016-03-18 21:18:41 [4436] [INFO] Listening at: http://0.0.0.0:8000 (4436)
-2016-03-18 21:18:41 [4436] [INFO] Using worker: sync
-2016-03-18 21:18:41 [4441] [INFO] Booting worker with pid: 4441
-2016-03-18 21:18:41 [4442] [INFO] Booting worker with pid: 4442
-2016-03-18 21:23:43 [4436] [INFO] Handling signal: term
-2016-03-18 17:23:43 [4441] [INFO] Worker exiting (pid: 4441)
-2016-03-18 17:23:43 [4442] [INFO] Worker exiting (pid: 4442)
-2016-03-18 21:23:43 [4436] [INFO] Shutting down: Master
-2016-03-18 21:23:43 [4630] [INFO] Starting gunicorn 17.5
-2016-03-18 21:23:43 [4630] [INFO] Listening at: http://0.0.0.0:8000 (4630)
-2016-03-18 21:23:43 [4630] [INFO] Using worker: sync
-2016-03-18 21:23:43 [4635] [INFO] Booting worker with pid: 4635
-2016-03-18 21:23:43 [4636] [INFO] Booting worker with pid: 4636
-2016-03-18 21:28:05 [4630] [INFO] Handling signal: term
-2016-03-18 17:28:05 [4635] [INFO] Worker exiting (pid: 4635)
-2016-03-18 17:28:05 [4636] [INFO] Worker exiting (pid: 4636)
-2016-03-18 21:28:06 [4630] [INFO] Shutting down: Master
-2016-03-18 21:28:06 [4734] [INFO] Starting gunicorn 17.5
-2016-03-18 21:28:06 [4734] [INFO] Listening at: http://0.0.0.0:8000 (4734)
-2016-03-18 21:28:06 [4734] [INFO] Using worker: sync
-2016-03-18 21:28:06 [4739] [INFO] Booting worker with pid: 4739
-2016-03-18 21:28:06 [4740] [INFO] Booting worker with pid: 4740
-2016-03-18 21:28:42 [4734] [INFO] Handling signal: term
-2016-03-18 17:28:42 [4739] [INFO] Worker exiting (pid: 4739)
-2016-03-18 21:28:42 [4740] [INFO] Worker exiting (pid: 4740)
-2016-03-18 21:28:42 [4734] [INFO] Shutting down: Master
-2016-03-18 21:28:43 [4824] [INFO] Starting gunicorn 17.5
-2016-03-18 21:28:43 [4824] [INFO] Listening at: http://0.0.0.0:8000 (4824)
-2016-03-18 21:28:43 [4824] [INFO] Using worker: sync
-2016-03-18 21:28:43 [4829] [INFO] Booting worker with pid: 4829
-2016-03-18 21:28:43 [4830] [INFO] Booting worker with pid: 4830
-2016-03-18 21:30:07 [4824] [INFO] Handling signal: term
-2016-03-18 17:30:07 [4829] [INFO] Worker exiting (pid: 4829)
-2016-03-18 21:30:07 [4830] [INFO] Worker exiting (pid: 4830)
-2016-03-18 21:30:07 [4824] [INFO] Shutting down: Master
-2016-03-18 21:30:08 [4916] [INFO] Starting gunicorn 17.5
-2016-03-18 21:30:08 [4916] [INFO] Listening at: http://0.0.0.0:8000 (4916)
-2016-03-18 21:30:08 [4916] [INFO] Using worker: sync
-2016-03-18 21:30:08 [4921] [INFO] Booting worker with pid: 4921
-2016-03-18 21:30:08 [4922] [INFO] Booting worker with pid: 4922
-2016-03-18 21:31:06 [4916] [INFO] Handling signal: term
-2016-03-18 17:31:06 [4921] [INFO] Worker exiting (pid: 4921)
-2016-03-18 21:31:06 [4922] [INFO] Worker exiting (pid: 4922)
-2016-03-18 21:31:06 [4916] [INFO] Shutting down: Master
-2016-03-18 21:31:07 [5006] [INFO] Starting gunicorn 17.5
-2016-03-18 21:31:07 [5006] [INFO] Listening at: http://0.0.0.0:8000 (5006)
-2016-03-18 21:31:07 [5006] [INFO] Using worker: sync
-2016-03-18 21:31:07 [5011] [INFO] Booting worker with pid: 5011
-2016-03-18 21:31:07 [5012] [INFO] Booting worker with pid: 5012
-2016-03-18 21:31:39 [5006] [INFO] Handling signal: term
-2016-03-18 17:31:39 [5011] [INFO] Worker exiting (pid: 5011)
-2016-03-18 21:31:39 [5012] [INFO] Worker exiting (pid: 5012)
-2016-03-18 21:31:39 [5006] [INFO] Shutting down: Master
-2016-03-18 21:31:39 [5095] [INFO] Starting gunicorn 17.5
-2016-03-18 21:31:39 [5095] [INFO] Listening at: http://0.0.0.0:8000 (5095)
-2016-03-18 21:31:39 [5095] [INFO] Using worker: sync
-2016-03-18 21:31:39 [5100] [INFO] Booting worker with pid: 5100
-2016-03-18 21:31:39 [5101] [INFO] Booting worker with pid: 5101
-2016-03-18 21:32:21 [5095] [INFO] Handling signal: term
-2016-03-18 17:32:21 [5100] [INFO] Worker exiting (pid: 5100)
-2016-03-18 21:32:21 [5101] [INFO] Worker exiting (pid: 5101)
-2016-03-18 21:32:21 [5095] [INFO] Shutting down: Master
-2016-03-18 21:32:22 [5183] [INFO] Starting gunicorn 17.5
-2016-03-18 21:32:22 [5183] [INFO] Listening at: http://0.0.0.0:8000 (5183)
-2016-03-18 21:32:22 [5183] [INFO] Using worker: sync
-2016-03-18 21:32:22 [5188] [INFO] Booting worker with pid: 5188
-2016-03-18 21:32:22 [5189] [INFO] Booting worker with pid: 5189
-2016-03-18 21:33:36 [5183] [INFO] Handling signal: term
-2016-03-18 17:33:36 [5188] [INFO] Worker exiting (pid: 5188)
-2016-03-18 17:33:36 [5189] [INFO] Worker exiting (pid: 5189)
-2016-03-18 21:33:36 [5183] [INFO] Shutting down: Master
-2016-03-18 21:33:36 [5275] [INFO] Starting gunicorn 17.5
-2016-03-18 21:33:36 [5275] [INFO] Listening at: http://0.0.0.0:8000 (5275)
-2016-03-18 21:33:36 [5275] [INFO] Using worker: sync
-2016-03-18 21:33:36 [5280] [INFO] Booting worker with pid: 5280
-2016-03-18 21:33:36 [5281] [INFO] Booting worker with pid: 5281
-2016-03-18 21:34:23 [5275] [INFO] Handling signal: term
-2016-03-18 17:34:23 [5280] [INFO] Worker exiting (pid: 5280)
-2016-03-18 21:34:23 [5281] [INFO] Worker exiting (pid: 5281)
-2016-03-18 21:34:24 [5275] [INFO] Shutting down: Master
-2016-03-18 21:34:24 [5362] [INFO] Starting gunicorn 17.5
-2016-03-18 21:34:24 [5362] [INFO] Listening at: http://0.0.0.0:8000 (5362)
-2016-03-18 21:34:24 [5362] [INFO] Using worker: sync
-2016-03-18 21:34:24 [5367] [INFO] Booting worker with pid: 5367
-2016-03-18 21:34:24 [5368] [INFO] Booting worker with pid: 5368
-2016-03-18 21:35:17 [5362] [INFO] Handling signal: term
-2016-03-18 17:35:17 [5368] [INFO] Worker exiting (pid: 5368)
-2016-03-18 17:35:17 [5367] [INFO] Worker exiting (pid: 5367)
-2016-03-18 21:35:17 [5362] [INFO] Shutting down: Master
-2016-03-18 21:35:18 [5460] [INFO] Starting gunicorn 17.5
-2016-03-18 21:35:18 [5460] [INFO] Listening at: http://0.0.0.0:8000 (5460)
-2016-03-18 21:35:18 [5460] [INFO] Using worker: sync
-2016-03-18 21:35:18 [5465] [INFO] Booting worker with pid: 5465
-2016-03-18 21:35:18 [5466] [INFO] Booting worker with pid: 5466
-2016-03-18 21:39:26 [5460] [INFO] Handling signal: term
-2016-03-18 17:39:26 [5465] [INFO] Worker exiting (pid: 5465)
-2016-03-18 17:39:26 [5466] [INFO] Worker exiting (pid: 5466)
-2016-03-18 21:39:26 [5460] [INFO] Shutting down: Master
-2016-03-18 21:39:27 [5560] [INFO] Starting gunicorn 17.5
-2016-03-18 21:39:27 [5560] [INFO] Listening at: http://0.0.0.0:8000 (5560)
-2016-03-18 21:39:27 [5560] [INFO] Using worker: sync
-2016-03-18 21:39:27 [5565] [INFO] Booting worker with pid: 5565
-2016-03-18 21:39:27 [5566] [INFO] Booting worker with pid: 5566
-2016-03-18 21:40:32 [5560] [INFO] Handling signal: term
-2016-03-18 17:40:32 [5565] [INFO] Worker exiting (pid: 5565)
-2016-03-18 17:40:32 [5566] [INFO] Worker exiting (pid: 5566)
-2016-03-18 21:40:32 [5560] [INFO] Shutting down: Master
-2016-03-18 21:40:33 [5655] [INFO] Starting gunicorn 17.5
-2016-03-18 21:40:33 [5655] [INFO] Listening at: http://0.0.0.0:8000 (5655)
-2016-03-18 21:40:33 [5655] [INFO] Using worker: sync
-2016-03-18 21:40:33 [5660] [INFO] Booting worker with pid: 5660
-2016-03-18 21:40:33 [5661] [INFO] Booting worker with pid: 5661
-2016-03-18 21:42:09 [5655] [INFO] Handling signal: term
-2016-03-18 17:42:09 [5660] [INFO] Worker exiting (pid: 5660)
-2016-03-18 17:42:09 [5661] [INFO] Worker exiting (pid: 5661)
-2016-03-18 21:42:09 [5655] [INFO] Shutting down: Master
-2016-03-18 21:42:09 [5747] [INFO] Starting gunicorn 17.5
-2016-03-18 21:42:09 [5747] [INFO] Listening at: http://0.0.0.0:8000 (5747)
-2016-03-18 21:42:09 [5747] [INFO] Using worker: sync
-2016-03-18 21:42:09 [5752] [INFO] Booting worker with pid: 5752
-2016-03-18 21:42:09 [5753] [INFO] Booting worker with pid: 5753
-2016-03-18 21:44:14 [5747] [INFO] Handling signal: term
-2016-03-18 17:44:14 [5752] [INFO] Worker exiting (pid: 5752)
-2016-03-18 17:44:14 [5753] [INFO] Worker exiting (pid: 5753)
-2016-03-18 21:44:14 [5747] [INFO] Shutting down: Master
-2016-03-18 21:44:14 [5846] [INFO] Starting gunicorn 17.5
-2016-03-18 21:44:14 [5846] [INFO] Listening at: http://0.0.0.0:8000 (5846)
-2016-03-18 21:44:14 [5846] [INFO] Using worker: sync
-2016-03-18 21:44:14 [5851] [INFO] Booting worker with pid: 5851
-2016-03-18 21:44:14 [5852] [INFO] Booting worker with pid: 5852
-2016-03-18 21:48:50 [5846] [INFO] Handling signal: term
-2016-03-18 17:48:50 [5851] [INFO] Worker exiting (pid: 5851)
-2016-03-18 17:48:50 [5852] [INFO] Worker exiting (pid: 5852)
-2016-03-18 21:48:51 [5846] [INFO] Shutting down: Master
-2016-03-18 21:48:51 [5979] [INFO] Starting gunicorn 17.5
-2016-03-18 21:48:51 [5979] [INFO] Listening at: http://0.0.0.0:8000 (5979)
-2016-03-18 21:48:51 [5979] [INFO] Using worker: sync
-2016-03-18 21:48:51 [5986] [INFO] Booting worker with pid: 5986
-2016-03-18 21:48:51 [5987] [INFO] Booting worker with pid: 5987
-2016-03-18 17:48:57 [5986] [ERROR] Error handling request
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
-    respiter = self.wsgi(environ, resp.start_response)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
-    response = self.get_response(request)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 196, in get_response
-    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
-    return debug.technical_500_response(request, *exc_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 69, in technical_500_response
-    html = reporter.get_traceback_html()
-  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 324, in get_traceback_html
-    return t.render(c)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
-    return self._render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
-    bit = self.render_node(node, context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
-    return node.render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 88, in render
-    output = self.filter_expression.resolve(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 613, in resolve
-    new_obj = func(obj, *arg_vals)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 705, in date
-    return format(value, arg)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 312, in format
-    return df.format(format_string)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
-    pieces.append(force_text(getattr(self, piece)()))
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 216, in r
-    return self.format('D, j M Y H:i:s O')
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
-    pieces.append(force_text(getattr(self, piece)()))
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 100, in force_text
-    s = s.__unicode__()
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 138, in __text_cast
-    return func(*self.__args, **self.__kw)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 76, in ugettext
-    return _trans.ugettext(message)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 281, in ugettext
-    return do_translate(message, 'ugettext')
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 263, in do_translate
-    _default = translation(settings.LANGUAGE_CODE)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 177, in translation
-    default_translation = _fetch(settings.LANGUAGE_CODE)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 159, in _fetch
-    app = import_module(appname)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
-    __import__(name)
-ImportError: No module named qa
-2016-03-18 17:49:06 [5987] [ERROR] Error handling request
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
-    respiter = self.wsgi(environ, resp.start_response)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 206, in __call__
-    response = self.get_response(request)
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 196, in get_response
-    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
-  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
-    return debug.technical_500_response(request, *exc_info)
-  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 69, in technical_500_response
-    html = reporter.get_traceback_html()
-  File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 324, in get_traceback_html
-    return t.render(c)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
-    return self._render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
-    return self.nodelist.render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 840, in render
-    bit = self.render_node(node, context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 78, in render_node
-    return node.render(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 88, in render
-    output = self.filter_expression.resolve(context)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 613, in resolve
-    new_obj = func(obj, *arg_vals)
-  File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 705, in date
-    return format(value, arg)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 312, in format
-    return df.format(format_string)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
-    pieces.append(force_text(getattr(self, piece)()))
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 216, in r
-    return self.format('D, j M Y H:i:s O')
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 35, in format
-    pieces.append(force_text(getattr(self, piece)()))
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 100, in force_text
-    s = s.__unicode__()
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 138, in __text_cast
-    return func(*self.__args, **self.__kw)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 76, in ugettext
-    return _trans.ugettext(message)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 281, in ugettext
-    return do_translate(message, 'ugettext')
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 263, in do_translate
-    _default = translation(settings.LANGUAGE_CODE)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 177, in translation
-    default_translation = _fetch(settings.LANGUAGE_CODE)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 159, in _fetch
-    app = import_module(appname)
-  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
-    __import__(name)
-ImportError: No module named qa
-2016-03-18 21:53:18 [5979] [INFO] Handling signal: term
-2016-03-18 17:53:18 [5986] [INFO] Worker exiting (pid: 5986)
-2016-03-18 17:53:18 [5987] [INFO] Worker exiting (pid: 5987)
-2016-03-18 21:53:18 [5979] [INFO] Shutting down: Master
-2016-03-18 21:53:19 [6145] [INFO] Starting gunicorn 17.5
-2016-03-18 21:53:19 [6145] [INFO] Listening at: http://0.0.0.0:8000 (6145)
-2016-03-18 21:53:19 [6145] [INFO] Using worker: sync
-2016-03-18 21:53:19 [6150] [INFO] Booting worker with pid: 6150
-2016-03-18 21:53:20 [6151] [INFO] Booting worker with pid: 6151
-2016-03-18 21:59:38 [6145] [INFO] Handling signal: term
-2016-03-18 17:59:38 [6150] [INFO] Worker exiting (pid: 6150)
-2016-03-18 17:59:38 [6151] [INFO] Worker exiting (pid: 6151)
-2016-03-18 21:59:38 [6145] [INFO] Shutting down: Master
-2016-03-18 21:59:38 [6249] [INFO] Starting gunicorn 17.5
-2016-03-18 21:59:38 [6249] [INFO] Listening at: http://0.0.0.0:8000 (6249)
-2016-03-18 21:59:38 [6249] [INFO] Using worker: sync
-2016-03-18 21:59:38 [6254] [INFO] Booting worker with pid: 6254
-2016-03-18 21:59:38 [6255] [INFO] Booting worker with pid: 6255
-2016-03-18 22:12:13 [6249] [INFO] Handling signal: term
-2016-03-18 18:12:13 [6254] [INFO] Worker exiting (pid: 6254)
-2016-03-18 18:12:13 [6255] [INFO] Worker exiting (pid: 6255)
-2016-03-18 22:12:13 [6249] [INFO] Shutting down: Master
-2016-03-18 23:48:46 [1518] [INFO] Starting gunicorn 17.5
-2016-03-18 23:48:46 [1518] [INFO] Listening at: http://0.0.0.0:8000 (1518)
-2016-03-18 23:48:46 [1518] [INFO] Using worker: sync
-2016-03-18 23:48:46 [1569] [INFO] Booting worker with pid: 1569
-2016-03-18 23:48:46 [1588] [INFO] Booting worker with pid: 1588
-2016-03-18 23:53:14 [1518] [INFO] Handling signal: term
-2016-03-18 23:53:14 [1569] [INFO] Worker exiting (pid: 1569)
-2016-03-18 23:53:14 [1588] [INFO] Worker exiting (pid: 1588)
-2016-03-18 23:53:14 [1518] [INFO] Shutting down: Master
-2016-03-18 23:53:15 [3247] [INFO] Starting gunicorn 17.5
-2016-03-18 23:53:15 [3247] [INFO] Listening at: http://0.0.0.0:8000 (3247)
-2016-03-18 23:53:15 [3247] [INFO] Using worker: sync
-2016-03-18 23:53:15 [3252] [INFO] Booting worker with pid: 3252
-2016-03-18 23:53:15 [3253] [INFO] Booting worker with pid: 3253
-2016-03-19 00:21:12 [3247] [INFO] Handling signal: term
-2016-03-18 20:21:12 [3252] [INFO] Worker exiting (pid: 3252)
-2016-03-18 20:21:12 [3253] [INFO] Worker exiting (pid: 3253)
-2016-03-19 00:21:12 [3247] [INFO] Shutting down: Master
-2016-03-20 01:30:03 [1556] [INFO] Starting gunicorn 17.5
-2016-03-20 01:30:03 [1556] [INFO] Listening at: http://0.0.0.0:8000 (1556)
-2016-03-20 01:30:03 [1556] [INFO] Using worker: sync
-2016-03-20 01:30:03 [1685] [INFO] Booting worker with pid: 1685
-2016-03-20 01:30:03 [1697] [INFO] Booting worker with pid: 1697
-2016-03-20 02:37:39 [1556] [INFO] Handling signal: term
+2016-03-26 12:56:33 [5121] [INFO] Starting gunicorn 17.5
+2016-03-26 12:56:33 [5121] [INFO] Listening at: http://0.0.0.0:8000 (5121)
+2016-03-26 12:56:33 [5121] [INFO] Using worker: sync
+2016-03-26 12:56:33 [5126] [INFO] Booting worker with pid: 5126
+2016-03-26 12:56:33 [5127] [INFO] Booting worker with pid: 5127
+2016-03-26 13:07:10 [5121] [INFO] Handling signal: term
+2016-03-26 09:07:10 [5126] [INFO] Worker exiting (pid: 5126)
+2016-03-26 09:07:10 [5127] [INFO] Worker exiting (pid: 5127)
+2016-03-26 13:07:10 [5121] [INFO] Shutting down: Master
+2016-03-26 13:07:11 [5285] [INFO] Starting gunicorn 17.5
+2016-03-26 13:07:11 [5285] [INFO] Listening at: http://0.0.0.0:8000 (5285)
+2016-03-26 13:07:11 [5285] [INFO] Using worker: sync
+2016-03-26 13:07:11 [5294] [INFO] Booting worker with pid: 5294
+2016-03-26 13:07:11 [5295] [INFO] Booting worker with pid: 5295
+2016-03-26 13:58:42 [5285] [INFO] Handling signal: term
+2016-03-26 09:58:42 [5294] [INFO] Worker exiting (pid: 5294)
+2016-03-26 09:58:42 [5295] [INFO] Worker exiting (pid: 5295)
+2016-03-26 13:58:42 [5285] [INFO] Shutting down: Master
+2016-03-26 13:58:43 [6677] [INFO] Starting gunicorn 17.5
+2016-03-26 13:58:43 [6677] [INFO] Listening at: http://0.0.0.0:8000 (6677)
+2016-03-26 13:58:43 [6677] [INFO] Using worker: sync
+2016-03-26 13:58:43 [6682] [INFO] Booting worker with pid: 6682
+2016-03-26 13:58:43 [6683] [INFO] Booting worker with pid: 6683
+2016-03-26 14:11:21 [6677] [INFO] Handling signal: term
+2016-03-26 14:11:21 [6682] [INFO] Worker exiting (pid: 6682)
+2016-03-26 14:11:21 [6683] [INFO] Worker exiting (pid: 6683)
+2016-03-26 14:11:21 [6677] [INFO] Shutting down: Master
+2016-03-26 17:39:07 [1645] [INFO] Starting gunicorn 17.5
+2016-03-26 17:39:07 [1645] [INFO] Listening at: http://0.0.0.0:8000 (1645)
+2016-03-26 17:39:07 [1645] [INFO] Using worker: sync
+2016-03-26 17:39:07 [1669] [INFO] Booting worker with pid: 1669
+2016-03-26 17:39:07 [1671] [INFO] Booting worker with pid: 1671
+2016-03-27 01:36:30 [1645] [INFO] Handling signal: term
 Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-Exception SystemExit: Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-0 in  ignored
 Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-2016-03-20 02:37:53 [1556] [INFO] Shutting down: Master
-2016-03-20 03:34:15 [1707] [INFO] Starting gunicorn 17.5
-2016-03-20 03:34:15 [1707] [INFO] Listening at: http://0.0.0.0:8000 (1707)
-2016-03-20 03:34:15 [1707] [INFO] Using worker: sync
-2016-03-20 03:34:15 [1758] [INFO] Booting worker with pid: 1758
-2016-03-20 03:34:15 [1759] [INFO] Booting worker with pid: 1759
-2016-03-20 03:53:07 [1707] [INFO] Handling signal: term
-2016-03-20 03:53:07 [1758] [INFO] Worker exiting (pid: 1758)
-2016-03-20 03:53:07 [1759] [INFO] Worker exiting (pid: 1759)
-2016-03-20 03:53:07 [1707] [INFO] Shutting down: Master
-2016-03-22 20:50:20 [1590] [INFO] Starting gunicorn 17.5
-2016-03-22 20:50:21 [1590] [INFO] Listening at: http://0.0.0.0:8000 (1590)
-2016-03-22 20:50:21 [1590] [INFO] Using worker: sync
-2016-03-22 20:50:21 [1644] [INFO] Booting worker with pid: 1644
-2016-03-22 20:50:21 [1680] [INFO] Booting worker with pid: 1680
-2016-03-22 23:51:52 [1590] [INFO] Handling signal: term
-Exception Exception SystemExit: SystemExit: 0 in 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: SystemExit(0,) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2016-03-27 01:36:31 [1645] [INFO] Shutting down: Master
+2016-03-27 23:17:52 [1661] [INFO] Starting gunicorn 17.5
+2016-03-27 23:17:52 [1661] [INFO] Listening at: http://0.0.0.0:8000 (1661)
+2016-03-27 23:17:52 [1661] [INFO] Using worker: sync
+2016-03-27 23:17:52 [1705] [INFO] Booting worker with pid: 1705
+2016-03-27 23:17:52 [1717] [INFO] Booting worker with pid: 1717
+2016-03-28 00:07:59 [1661] [INFO] Handling signal: term
+2016-03-28 00:07:59 [1705] [INFO] Worker exiting (pid: 1705)
+2016-03-28 00:07:59 [1717] [INFO] Worker exiting (pid: 1717)
+2016-03-28 00:07:59 [1661] [INFO] Shutting down: Master
+2016-03-30 09:52:07 [1657] [INFO] Starting gunicorn 17.5
+2016-03-30 09:52:07 [1657] [INFO] Listening at: http://0.0.0.0:8000 (1657)
+2016-03-30 09:52:07 [1657] [INFO] Using worker: sync
+2016-03-30 09:52:07 [1686] [INFO] Booting worker with pid: 1686
+2016-03-30 09:52:07 [1696] [INFO] Booting worker with pid: 1696
+2016-03-30 10:06:33 [1657] [INFO] Handling signal: term
+Exception SystemExitException SystemExit: : 0 in 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
 <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
 Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
 Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-2016-03-22 23:51:54 [1590] [INFO] Shutting down: Master
-2016-03-23 21:04:48 [1662] [INFO] Starting gunicorn 17.5
-2016-03-23 21:04:48 [1662] [INFO] Listening at: http://0.0.0.0:8000 (1662)
-2016-03-23 21:04:48 [1662] [INFO] Using worker: sync
-2016-03-23 21:04:48 [1750] [INFO] Booting worker with pid: 1750
-2016-03-23 21:04:48 [1759] [INFO] Booting worker with pid: 1759
-2016-03-24 00:19:56 [1662] [INFO] Handling signal: term
-2016-03-24 00:19:56 [1759] [INFO] Worker exiting (pid: 1759)
-2016-03-24 00:19:56 [1750] [INFO] Worker exiting (pid: 1750)
-Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
-2016-03-24 00:19:56 [1662] [INFO] Shutting down: Master
-2016-03-24 00:21:32 [1572] [INFO] Starting gunicorn 17.5
-2016-03-24 00:21:32 [1572] [INFO] Listening at: http://0.0.0.0:8000 (1572)
-2016-03-24 00:21:32 [1572] [INFO] Using worker: sync
-2016-03-24 00:21:32 [1593] [INFO] Booting worker with pid: 1593
-2016-03-24 00:21:32 [1595] [INFO] Booting worker with pid: 1595
+2016-03-30 10:06:34 [1657] [INFO] Shutting down: Master
+2016-03-30 10:06:36 [3999] [INFO] Starting gunicorn 17.5
+2016-03-30 10:06:36 [3999] [INFO] Listening at: http://0.0.0.0:8000 (3999)
+2016-03-30 10:06:36 [3999] [INFO] Using worker: sync
+2016-03-30 10:06:36 [4004] [INFO] Booting worker with pid: 4004
+2016-03-30 10:06:36 [4005] [INFO] Booting worker with pid: 4005
+2016-03-30 10:07:27 [4004] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:08:28 [4005] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:11:35 [4005] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:12:07 [3999] [INFO] Handling signal: term
+2016-03-30 10:12:07 [4004] [INFO] Worker exiting (pid: 4004)
+2016-03-30 10:12:07 [4005] [INFO] Worker exiting (pid: 4005)
+2016-03-30 10:12:07 [3999] [INFO] Shutting down: Master
+2016-03-30 10:12:08 [4868] [INFO] Starting gunicorn 17.5
+2016-03-30 10:12:08 [4868] [INFO] Listening at: http://0.0.0.0:8000 (4868)
+2016-03-30 10:12:08 [4868] [INFO] Using worker: sync
+2016-03-30 10:12:08 [4876] [INFO] Booting worker with pid: 4876
+2016-03-30 10:12:08 [4877] [INFO] Booting worker with pid: 4877
+2016-03-30 10:12:12 [4876] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:12:18 [4877] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:15:31 [4868] [INFO] Handling signal: term
+2016-03-30 10:15:31 [4876] [INFO] Worker exiting (pid: 4876)
+2016-03-30 10:15:31 [4877] [INFO] Worker exiting (pid: 4877)
+2016-03-30 10:15:32 [4868] [INFO] Shutting down: Master
+2016-03-30 10:15:32 [5750] [INFO] Starting gunicorn 17.5
+2016-03-30 10:15:32 [5750] [INFO] Listening at: http://0.0.0.0:8000 (5750)
+2016-03-30 10:15:32 [5750] [INFO] Using worker: sync
+2016-03-30 10:15:32 [5755] [INFO] Booting worker with pid: 5755
+2016-03-30 10:15:32 [5756] [INFO] Booting worker with pid: 5756
+2016-03-30 10:18:37 [5750] [INFO] Handling signal: term
+2016-03-30 10:18:37 [5755] [INFO] Worker exiting (pid: 5755)
+2016-03-30 10:18:37 [5756] [INFO] Worker exiting (pid: 5756)
+2016-03-30 10:18:38 [5750] [INFO] Shutting down: Master
+2016-03-30 10:20:12 [6822] [INFO] Starting gunicorn 17.5
+2016-03-30 10:20:12 [6822] [INFO] Listening at: http://0.0.0.0:8000 (6822)
+2016-03-30 10:20:12 [6822] [INFO] Using worker: sync
+2016-03-30 10:20:12 [6827] [INFO] Booting worker with pid: 6827
+2016-03-30 10:20:12 [6828] [INFO] Booting worker with pid: 6828
+2016-03-30 10:20:37 [6827] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:20:59 [6828] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:21:05 [6827] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:21:14 [6827] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 10:27:10 [6822] [INFO] Handling signal: term
+2016-03-30 10:27:10 [6827] [INFO] Worker exiting (pid: 6827)
+2016-03-30 10:27:10 [6828] [INFO] Worker exiting (pid: 6828)
+2016-03-30 10:27:10 [6822] [INFO] Shutting down: Master
+2016-03-30 10:28:31 [1648] [INFO] Starting gunicorn 17.5
+2016-03-30 10:28:31 [1648] [INFO] Listening at: http://0.0.0.0:8000 (1648)
+2016-03-30 10:28:31 [1648] [INFO] Using worker: sync
+2016-03-30 10:28:31 [1656] [INFO] Booting worker with pid: 1656
+2016-03-30 10:28:31 [1663] [INFO] Booting worker with pid: 1663
+2016-03-30 11:40:10 [1648] [INFO] Handling signal: term
+2016-03-30 11:40:10 [1663] [INFO] Worker exiting (pid: 1663)
+2016-03-30 11:40:10 [1656] [INFO] Worker exiting (pid: 1656)
+2016-03-30 11:40:10 [1648] [INFO] Shutting down: Master
+2016-03-30 15:20:19 [1589] [INFO] Starting gunicorn 17.5
+2016-03-30 15:20:19 [1589] [INFO] Listening at: http://0.0.0.0:8000 (1589)
+2016-03-30 15:20:19 [1589] [INFO] Using worker: sync
+2016-03-30 15:20:19 [1635] [INFO] Booting worker with pid: 1635
+2016-03-30 15:20:19 [1644] [INFO] Booting worker with pid: 1644
+2016-03-30 15:29:16 [1589] [INFO] Handling signal: term
+2016-03-30 15:29:16 [1635] [INFO] Worker exiting (pid: 1635)
+2016-03-30 15:29:16 [1644] [INFO] Worker exiting (pid: 1644)
+2016-03-30 15:29:17 [1589] [INFO] Shutting down: Master
+2016-03-30 15:30:34 [1655] [INFO] Starting gunicorn 17.5
+2016-03-30 15:30:34 [1655] [INFO] Listening at: http://0.0.0.0:8000 (1655)
+2016-03-30 15:30:34 [1655] [INFO] Using worker: sync
+2016-03-30 15:30:34 [1673] [INFO] Booting worker with pid: 1673
+2016-03-30 15:30:34 [1679] [INFO] Booting worker with pid: 1679
+2016-03-30 15:33:45 [1655] [INFO] Handling signal: term
+2016-03-30 15:33:45 [1673] [INFO] Worker exiting (pid: 1673)
+2016-03-30 15:33:45 [1679] [INFO] Worker exiting (pid: 1679)
+2016-03-30 15:33:45 [1655] [INFO] Shutting down: Master
+2016-03-30 15:33:46 [2949] [INFO] Starting gunicorn 17.5
+2016-03-30 15:33:46 [2949] [INFO] Listening at: http://0.0.0.0:8000 (2949)
+2016-03-30 15:33:46 [2949] [INFO] Using worker: sync
+2016-03-30 15:33:46 [2954] [INFO] Booting worker with pid: 2954
+2016-03-30 15:33:46 [2955] [INFO] Booting worker with pid: 2955
+2016-03-30 15:34:31 [2955] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 15:38:36 [2949] [INFO] Handling signal: term
+2016-03-30 15:38:36 [2954] [INFO] Worker exiting (pid: 2954)
+2016-03-30 15:38:36 [2955] [INFO] Worker exiting (pid: 2955)
+2016-03-30 15:38:36 [2949] [INFO] Shutting down: Master
+2016-03-30 15:39:53 [3152] [INFO] Starting gunicorn 17.5
+2016-03-30 15:39:53 [3152] [INFO] Listening at: http://0.0.0.0:8000 (3152)
+2016-03-30 15:39:53 [3152] [INFO] Using worker: sync
+2016-03-30 15:39:53 [3157] [INFO] Booting worker with pid: 3157
+2016-03-30 15:39:53 [3158] [INFO] Booting worker with pid: 3158
+2016-03-30 15:40:02 [3157] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 16:00:11 [3152] [INFO] Handling signal: term
+2016-03-30 16:00:11 [3157] [INFO] Worker exiting (pid: 3157)
+2016-03-30 16:00:11 [3158] [INFO] Worker exiting (pid: 3158)
+2016-03-30 16:00:11 [3152] [INFO] Shutting down: Master
+2016-03-30 16:00:11 [3424] [INFO] Starting gunicorn 17.5
+2016-03-30 16:00:11 [3424] [INFO] Listening at: http://0.0.0.0:8000 (3424)
+2016-03-30 16:00:11 [3424] [INFO] Using worker: sync
+2016-03-30 16:00:11 [3429] [INFO] Booting worker with pid: 3429
+2016-03-30 16:00:11 [3430] [INFO] Booting worker with pid: 3430
+2016-03-30 16:00:54 [3430] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 126, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 46, in load_middleware
+    for middleware_path in settings.MIDDLEWARE_CLASSES:
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/home/box/web/ask/ask/settings.py", line 29, in <module>
+    TEMPLATE_DIRS (
+NameError: name 'TEMPLATE_DIRS' is not defined
+2016-03-30 16:05:31 [3424] [INFO] Handling signal: term
+2016-03-30 16:05:31 [3429] [INFO] Worker exiting (pid: 3429)
+2016-03-30 16:05:31 [3430] [INFO] Worker exiting (pid: 3430)
+2016-03-30 16:05:31 [3424] [INFO] Shutting down: Master
+2016-03-30 16:05:32 [3575] [INFO] Starting gunicorn 17.5
+2016-03-30 16:05:32 [3575] [INFO] Listening at: http://0.0.0.0:8000 (3575)
+2016-03-30 16:05:32 [3575] [INFO] Using worker: sync
+2016-03-30 16:05:32 [3580] [INFO] Booting worker with pid: 3580
+2016-03-30 16:05:32 [3581] [INFO] Booting worker with pid: 3581
+2016-03-30 16:37:52 [3575] [INFO] Handling signal: term
+2016-03-30 12:37:52 [3580] [INFO] Worker exiting (pid: 3580)
+2016-03-30 12:37:52 [3581] [INFO] Worker exiting (pid: 3581)
+2016-03-30 16:37:53 [3575] [INFO] Shutting down: Master
+2016-03-30 16:37:53 [3864] [INFO] Starting gunicorn 17.5
+2016-03-30 16:37:53 [3864] [INFO] Listening at: http://0.0.0.0:8000 (3864)
+2016-03-30 16:37:53 [3864] [INFO] Using worker: sync
+2016-03-30 16:37:53 [3869] [INFO] Booting worker with pid: 3869
+2016-03-30 16:37:53 [3870] [INFO] Booting worker with pid: 3870
+2016-03-30 16:46:46 [3864] [INFO] Handling signal: term
+2016-03-30 12:46:46 [3869] [INFO] Worker exiting (pid: 3869)
+2016-03-30 12:46:46 [3870] [INFO] Worker exiting (pid: 3870)
+2016-03-30 16:46:46 [3864] [INFO] Shutting down: Master
+2016-03-30 16:46:47 [3984] [INFO] Starting gunicorn 17.5
+2016-03-30 16:46:47 [3984] [INFO] Listening at: http://0.0.0.0:8000 (3984)
+2016-03-30 16:46:47 [3984] [INFO] Using worker: sync
+2016-03-30 16:46:47 [3989] [INFO] Booting worker with pid: 3989
+2016-03-30 16:46:47 [3990] [INFO] Booting worker with pid: 3990
+2016-03-30 16:49:13 [3984] [INFO] Handling signal: term
+2016-03-30 12:49:13 [3989] [INFO] Worker exiting (pid: 3989)
+2016-03-30 12:49:13 [3990] [INFO] Worker exiting (pid: 3990)
+2016-03-30 16:49:13 [3984] [INFO] Shutting down: Master
+2016-03-30 16:49:14 [4085] [INFO] Starting gunicorn 17.5
+2016-03-30 16:49:14 [4085] [INFO] Listening at: http://0.0.0.0:8000 (4085)
+2016-03-30 16:49:14 [4085] [INFO] Using worker: sync
+2016-03-30 16:49:14 [4090] [INFO] Booting worker with pid: 4090
+2016-03-30 16:49:14 [4091] [INFO] Booting worker with pid: 4091

@@ -27,7 +27,7 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS = (
-	'/home/box/web/ask/templates'
+    '/home/box/web/ask/templates',
 )
 
 # Application definition

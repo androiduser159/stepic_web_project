@@ -406,3 +406,148 @@ NameError: name 'TEMPLATE_DIRS' is not defined
 2016-03-30 16:49:14 [4085] [INFO] Using worker: sync
 2016-03-30 16:49:14 [4090] [INFO] Booting worker with pid: 4090
 2016-03-30 16:49:14 [4091] [INFO] Booting worker with pid: 4091
+2016-03-30 22:51:23 [4085] [INFO] Handling signal: term
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Error in atexit._run_exitfuncs:
+Exception KeyError: KeyError(140378009634624,) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2016-03-30 22:51:23 [4085] [INFO] Shutting down: Master
+2016-03-31 22:32:24 [1575] [INFO] Starting gunicorn 17.5
+2016-03-31 22:32:24 [1575] [INFO] Listening at: http://0.0.0.0:8000 (1575)
+2016-03-31 22:32:24 [1575] [INFO] Using worker: sync
+2016-03-31 22:32:24 [1608] [INFO] Booting worker with pid: 1608
+2016-03-31 22:32:25 [1628] [INFO] Booting worker with pid: 1628
+2016-03-31 22:56:59 [1575] [INFO] Handling signal: term
+2016-03-31 22:56:59 [1608] [INFO] Worker exiting (pid: 1608)
+2016-03-31 18:56:59 [1628] [INFO] Worker exiting (pid: 1628)
+2016-03-31 22:56:59 [1575] [INFO] Shutting down: Master
+2016-03-31 22:57:00 [3292] [INFO] Starting gunicorn 17.5
+2016-03-31 22:57:00 [3292] [INFO] Listening at: http://0.0.0.0:8000 (3292)
+2016-03-31 22:57:00 [3292] [INFO] Using worker: sync
+2016-03-31 22:57:00 [3300] [INFO] Booting worker with pid: 3300
+2016-03-31 22:57:00 [3301] [INFO] Booting worker with pid: 3301
+2016-03-31 22:58:19 [3292] [INFO] Handling signal: term
+2016-03-31 18:58:19 [3300] [INFO] Worker exiting (pid: 3300)
+2016-03-31 18:58:19 [3301] [INFO] Worker exiting (pid: 3301)
+2016-03-31 22:58:20 [3292] [INFO] Shutting down: Master
+2016-03-31 22:58:20 [3387] [INFO] Starting gunicorn 17.5
+2016-03-31 22:58:20 [3387] [INFO] Listening at: http://0.0.0.0:8000 (3387)
+2016-03-31 22:58:20 [3387] [INFO] Using worker: sync
+2016-03-31 22:58:20 [3392] [INFO] Booting worker with pid: 3392
+2016-03-31 22:58:20 [3393] [INFO] Booting worker with pid: 3393
+2016-03-31 23:01:02 [3387] [INFO] Handling signal: term
+2016-03-31 19:01:02 [3392] [INFO] Worker exiting (pid: 3392)
+2016-03-31 23:01:02 [3393] [INFO] Worker exiting (pid: 3393)
+2016-03-31 23:01:02 [3387] [INFO] Shutting down: Master
+2016-03-31 23:01:02 [3485] [INFO] Starting gunicorn 17.5
+2016-03-31 23:01:02 [3485] [INFO] Listening at: http://0.0.0.0:8000 (3485)
+2016-03-31 23:01:02 [3485] [INFO] Using worker: sync
+2016-03-31 23:01:02 [3490] [INFO] Booting worker with pid: 3490
+2016-03-31 23:01:02 [3491] [INFO] Booting worker with pid: 3491
+2016-03-31 23:05:58 [3485] [INFO] Handling signal: term
+2016-03-31 19:05:58 [3490] [INFO] Worker exiting (pid: 3490)
+2016-03-31 19:05:58 [3491] [INFO] Worker exiting (pid: 3491)
+2016-03-31 23:05:58 [3485] [INFO] Shutting down: Master
+2016-03-31 23:05:58 [3627] [INFO] Starting gunicorn 17.5
+2016-03-31 23:05:58 [3627] [INFO] Listening at: http://0.0.0.0:8000 (3627)
+2016-03-31 23:05:58 [3627] [INFO] Using worker: sync
+2016-03-31 23:05:58 [3632] [INFO] Booting worker with pid: 3632
+2016-03-31 23:05:58 [3633] [INFO] Booting worker with pid: 3633
+2016-03-31 23:15:15 [3627] [INFO] Handling signal: term
+2016-03-31 19:15:15 [3632] [INFO] Worker exiting (pid: 3632)
+2016-03-31 19:15:15 [3633] [INFO] Worker exiting (pid: 3633)
+2016-03-31 23:15:16 [3627] [INFO] Shutting down: Master
+2016-03-31 23:15:16 [3747] [INFO] Starting gunicorn 17.5
+2016-03-31 23:15:16 [3747] [INFO] Listening at: http://0.0.0.0:8000 (3747)
+2016-03-31 23:15:16 [3747] [INFO] Using worker: sync
+2016-03-31 23:15:16 [3752] [INFO] Booting worker with pid: 3752
+2016-03-31 23:15:16 [3753] [INFO] Booting worker with pid: 3753
+2016-03-31 23:16:52 [3747] [INFO] Handling signal: term
+2016-03-31 19:16:52 [3752] [INFO] Worker exiting (pid: 3752)
+2016-03-31 23:16:52 [3753] [INFO] Worker exiting (pid: 3753)
+2016-03-31 23:16:52 [3747] [INFO] Shutting down: Master
+2016-03-31 23:16:53 [3837] [INFO] Starting gunicorn 17.5
+2016-03-31 23:16:53 [3837] [INFO] Listening at: http://0.0.0.0:8000 (3837)
+2016-03-31 23:16:53 [3837] [INFO] Using worker: sync
+2016-03-31 23:16:53 [3842] [INFO] Booting worker with pid: 3842
+2016-03-31 23:16:53 [3843] [INFO] Booting worker with pid: 3843
+2016-03-31 23:19:22 [3837] [INFO] Handling signal: term
+2016-03-31 19:19:22 [3842] [INFO] Worker exiting (pid: 3842)
+2016-03-31 23:19:22 [3843] [INFO] Worker exiting (pid: 3843)
+2016-03-31 23:19:22 [3837] [INFO] Shutting down: Master
+2016-03-31 23:19:22 [3930] [INFO] Starting gunicorn 17.5
+2016-03-31 23:19:22 [3930] [INFO] Listening at: http://0.0.0.0:8000 (3930)
+2016-03-31 23:19:22 [3930] [INFO] Using worker: sync
+2016-03-31 23:19:22 [3935] [INFO] Booting worker with pid: 3935
+2016-03-31 23:19:22 [3936] [INFO] Booting worker with pid: 3936
+2016-03-31 23:21:46 [3930] [INFO] Handling signal: term
+2016-03-31 19:21:46 [3936] [INFO] Worker exiting (pid: 3936)
+2016-03-31 19:21:46 [3935] [INFO] Worker exiting (pid: 3935)
+2016-03-31 23:21:46 [3930] [INFO] Shutting down: Master
+2016-04-06 21:04:09 [1673] [INFO] Starting gunicorn 17.5
+2016-04-06 21:04:09 [1673] [INFO] Listening at: http://0.0.0.0:8000 (1673)
+2016-04-06 21:04:09 [1673] [INFO] Using worker: sync
+2016-04-06 21:04:09 [1776] [INFO] Booting worker with pid: 1776
+2016-04-06 21:04:09 [1792] [INFO] Booting worker with pid: 1792
+2016-04-06 21:17:29 [1673] [INFO] Handling signal: term
+2016-04-06 21:17:30 [1776] [INFO] Worker exiting (pid: 1776)
+2016-04-06 21:17:30 [1792] [INFO] Worker exiting (pid: 1792)
+2016-04-06 21:17:30 [1673] [INFO] Shutting down: Master
+2016-04-06 21:17:31 [3261] [INFO] Starting gunicorn 17.5
+2016-04-06 21:17:31 [3261] [INFO] Listening at: http://0.0.0.0:8000 (3261)
+2016-04-06 21:17:31 [3261] [INFO] Using worker: sync
+2016-04-06 21:17:31 [3268] [INFO] Booting worker with pid: 3268
+2016-04-06 21:17:31 [3269] [INFO] Booting worker with pid: 3269
+2016-04-06 21:44:12 [3261] [INFO] Handling signal: term
+2016-04-06 17:44:12 [3268] [INFO] Worker exiting (pid: 3268)
+2016-04-06 17:44:12 [3269] [INFO] Worker exiting (pid: 3269)
+2016-04-06 21:44:12 [3261] [INFO] Shutting down: Master
+2016-04-07 13:04:40 [1647] [INFO] Starting gunicorn 17.5
+2016-04-07 13:04:40 [1647] [INFO] Listening at: http://0.0.0.0:8000 (1647)
+2016-04-07 13:04:40 [1647] [INFO] Using worker: sync
+2016-04-07 13:04:40 [1680] [INFO] Booting worker with pid: 1680
+2016-04-07 13:04:40 [1683] [INFO] Booting worker with pid: 1683
+2016-04-07 13:37:52 [1647] [INFO] Handling signal: term
+2016-04-07 13:37:52 [1680] [INFO] Worker exiting (pid: 1680)
+2016-04-07 13:37:52 [1683] [INFO] Worker exiting (pid: 1683)
+2016-04-07 13:37:52 [1647] [INFO] Shutting down: Master
+2016-04-09 14:41:20 [1502] [INFO] Starting gunicorn 17.5
+2016-04-09 14:41:20 [1502] [INFO] Listening at: http://0.0.0.0:8000 (1502)
+2016-04-09 14:41:20 [1502] [INFO] Using worker: sync
+2016-04-09 14:41:20 [1529] [INFO] Booting worker with pid: 1529
+2016-04-09 14:41:20 [1541] [INFO] Booting worker with pid: 1541
+2016-04-09 15:01:48 [1502] [INFO] Handling signal: term
+2016-04-09 15:01:48 [1529] [INFO] Worker exiting (pid: 1529)
+2016-04-09 15:01:48 [1541] [INFO] Worker exiting (pid: 1541)
+2016-04-09 15:01:48 [1502] [INFO] Shutting down: Master
+2016-04-10 22:40:22 [1744] [INFO] Starting gunicorn 17.5
+2016-04-10 22:40:22 [1744] [INFO] Listening at: http://0.0.0.0:8000 (1744)
+2016-04-10 22:40:22 [1744] [INFO] Using worker: sync
+2016-04-10 22:40:22 [1768] [INFO] Booting worker with pid: 1768
+2016-04-10 22:40:22 [1781] [INFO] Booting worker with pid: 1781
+2016-04-10 23:29:52 [1744] [INFO] Handling signal: term
+2016-04-10 23:29:52 [1768] [INFO] Worker exiting (pid: 1768)
+2016-04-10 23:29:52 [1781] [INFO] Worker exiting (pid: 1781)
+2016-04-10 23:29:52 [1744] [INFO] Shutting down: Master
+2016-04-11 16:24:21 [1560] [INFO] Starting gunicorn 17.5
+2016-04-11 16:24:21 [1560] [INFO] Listening at: http://0.0.0.0:8000 (1560)
+2016-04-11 16:24:21 [1560] [INFO] Using worker: sync
+2016-04-11 16:24:21 [1577] [INFO] Booting worker with pid: 1577
+2016-04-11 16:24:21 [1586] [INFO] Booting worker with pid: 1586
+2016-04-11 16:37:57 [1560] [INFO] Handling signal: term
+2016-04-11 12:37:57 [1577] [INFO] Worker exiting (pid: 1577)
+2016-04-11 12:37:57 [1586] [INFO] Worker exiting (pid: 1586)
+2016-04-11 16:37:57 [1560] [INFO] Shutting down: Master
+2016-04-11 18:55:42 [1504] [INFO] Starting gunicorn 17.5
+2016-04-11 18:55:42 [1504] [INFO] Listening at: http://0.0.0.0:8000 (1504)
+2016-04-11 18:55:42 [1504] [INFO] Using worker: sync
+2016-04-11 18:55:42 [1533] [INFO] Booting worker with pid: 1533
+2016-04-11 18:55:42 [1543] [INFO] Booting worker with pid: 1543
+2016-04-11 19:50:26 [1504] [INFO] Handling signal: term
+2016-04-11 19:50:26 [1533] [INFO] Worker exiting (pid: 1533)
+2016-04-11 19:50:26 [1543] [INFO] Worker exiting (pid: 1543)
+2016-04-11 19:50:26 [1504] [INFO] Shutting down: Master
+2016-04-12 00:28:00 [5395] [INFO] Starting gunicorn 17.5
+2016-04-12 00:28:00 [5395] [INFO] Listening at: http://0.0.0.0:8000 (5395)
+2016-04-12 00:28:00 [5395] [INFO] Using worker: sync
+2016-04-12 00:28:00 [5400] [INFO] Booting worker with pid: 5400
+2016-04-12 00:28:00 [5401] [INFO] Booting worker with pid: 5401

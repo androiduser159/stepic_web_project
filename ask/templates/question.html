@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>{{ title }}</title>
 </head>
 <body>
-	this is {{ title }} question
+	<h2>{{ question.title }}</h2>
+	<p>{{ question.text }}</p>
+	{% for answer in answers %}
+		<p>{{ answer.text }}</p>
+	{% endfor %}
+
 </body>
 </html>

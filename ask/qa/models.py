@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.urlresolvers import reverse
 
 # Create your models here.
 class Question(models.Model):
@@ -7,7 +8,7 @@ class Question(models.Model):
 	text = models.TextField()
 	added_at = models.DateTimeField(auto_now_add = True)
 	rating = models.IntegerField(default = 0)
-	author = models.ForeignKey(User, related_name = 'question_author')
+	author = models.ForeignKey(User, default=1, related_name = 'question_author')
 	likes = models.ManyToManyField(User)
 	class Meta:
 		db_table = 'question'
@@ -16,16 +17,19 @@ class Question(models.Model):
 		return self.title
 
 	def get_url(self):
-		return reverse('question', kwargs={'id': self.id})
+		return reverse('question', kwargs={'q_id': self.id})
 
 class Answer(models.Model):
 	text = models.TextField()
 	added_at = models.DateTimeField(auto_now_add = True)
+	#question = models.IntegerField()
 	question = models.ForeignKey(Question)
 	author = models.ForeignKey(User, related_name = 'answer_author')
 	class Meta:
 		db_table = 'answer'
 
-	#def __unicode__(self):
-	#	return self.author + self.added_at + self.text
+	def __unicode__(self):
+		return self.text
 			
+	def get_url(self):
+		return reverse('question', kwargs={'q_id': self.question.id})

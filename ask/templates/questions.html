@@ -11,16 +11,14 @@
 		<p>{{ question.text }}</p>
 		<hr>
 	{% endfor %}
-	<nav><ul class="pagination">
-	{% for page in paginator.page_range %}
-		{% if page == page.number %}
-			<li class="active">
-		<% else %>
-			<li>
+	{% for p in page.paginator.page_range %}
+		{% if p == page.number %}
+		<li class="active">
+		{% else %}
+		<li>
 		{% endif %}
-		<a href="{{ paginator.baseurl }}{{ page }}">{{ page }}</a>
-		</li>
+		<a href="{{ page.paginator.baseurl }}{{ p }}">{{ p }}</a>
+		<li>
 	{% endfor %}
-	</ul></nav>
 </body>
 </html>

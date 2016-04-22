@@ -4,6 +4,17 @@
 	<title>{{ title }}</title>
 </head>
 <body>
+	<div class="top-bar">
+		<section class="top-bar-section">
+			<ul class="right">
+				{% if username %}
+					<li><a href="/logout/">Logout ({{ username }})</a></li>
+				{% else %}
+					<li><a href="/login/">Login</a></li>
+				{% endif %}
+			</ul>
+		</section>
+	</div>
 	<h2>{{ title }}<h2>
 	{% for question in questions %}
 		<h6>{{ question.added_at }}</h6>
@@ -20,5 +31,6 @@
 		<a href="{{ page.paginator.baseurl }}{{ p }}">{{ p }}</a>
 		<li>
 	{% endfor %}
+	{% block login %}{% endblock %}
 </body>
 </html>

@@ -33,3 +33,13 @@ class Answer(models.Model):
 			
 	def get_url(self):
 		return reverse('question', kwargs={'q_id': self.question.id})
+
+class User(models.Model):
+	username = models.CharField(max_length=100, unique=True)
+	email = models.EmailField()
+	password = models.CharField(max_length=100)
+
+#class Session(models.Model):
+#	key = models.CharField(max_length=100, unique=True)
+#	user = models.ForeignKey(User)
+#	expires = models.DateTimeField()

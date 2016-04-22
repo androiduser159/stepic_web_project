@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<!--{{ form.as_ul }}-->
+	{% for e in form.non_field_errors %}
+		<div class="alert alert-danger">{{ e }}</div>
+	{% endfor %}
+	<form class="form-horizontal" method="post" action="/login/">
+		{% csrf_token %}
+ 		<fieldset>
+			<label for="username">Username</label>
+			<div><input type="text" name="username" id="username"></div>
+			<label for="password">Password</label>
+			<div><input type="password" name="password" id="password"></div>
+		</fieldset>
+		<input class="button" type="submit" value="Login">
+		<div class="label round secondary"><a href="/signup/">Sugnup</a></div>
+		{% if login_error %}
+			<label class="error">{{ login_error }}</label>
+		{% endif %}
+	</form>
+</body>
+</html>

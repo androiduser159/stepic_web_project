@@ -71,9 +71,13 @@ def question_add(request):
 def answer_add(request):
 	if request.method == "POST":
 		form = AnswerForm(request.POST)
+		#print request.user
 		form._user = request.user
 		if form.is_valid():
+			#print form.cleaned_data
 			answer = form.save()
+			#print answer.text
+			#print answer.author
 			url = answer.get_url()
 			return HttpResponseRedirect(url)
 

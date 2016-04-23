@@ -13,8 +13,8 @@ class AskForm(forms.Form):
 		return self.cleaned_data
 
 	def save(self):
-		question = Question(**self.cleaned_data)
 		self.cleaned_data['author'] = self._user	
+		question = Question(**self.cleaned_data)
 		question.save()
 		return question
 	

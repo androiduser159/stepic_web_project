@@ -850,3 +850,14 @@ Exception KeyError: KeyError(140378009634624,) in <module 'threading' from '/usr
 2016-04-22 15:16:51 [1701] [INFO] Worker exiting (pid: 1701)
 2016-04-22 15:16:51 [1710] [INFO] Worker exiting (pid: 1710)
 2016-04-22 19:16:51 [1684] [INFO] Shutting down: Master
+2016-04-23 06:23:55 [1658] [INFO] Starting gunicorn 17.5
+2016-04-23 06:23:55 [1658] [INFO] Listening at: http://0.0.0.0:8000 (1658)
+2016-04-23 06:23:55 [1658] [INFO] Using worker: sync
+2016-04-23 06:23:55 [1672] [INFO] Booting worker with pid: 1672
+2016-04-23 06:23:55 [1675] [INFO] Booting worker with pid: 1675
+2016-04-23 09:30:51 [1658] [INFO] Handling signal: term
+2016-04-23 05:30:51 [1672] [INFO] Worker exiting (pid: 1672)
+None
+2016-04-23 05:30:51 [1675] [INFO] Worker exiting (pid: 1675)
+None
+2016-04-23 09:30:51 [1658] [INFO] Shutting down: Master

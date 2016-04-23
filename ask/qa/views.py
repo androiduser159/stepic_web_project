@@ -2,7 +2,7 @@ from django.shortcuts import render, render_to_response, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.http import Http404
 from django.template.loader import get_template
-from qa.models import Question, Answer, User
+from qa.models import Question, Answer
 from qa.forms import AskForm, AnswerForm, UserForm
 from django.core.paginator import Paginator
 from django.contrib import auth
@@ -79,19 +79,19 @@ def answer_add(request):
 
 def signup_view(request):
 	if request.method == 'POST':
-		#form = UserForm(request.POST)
-		#username = request.POST.get('username')
-		#password = request.POST.get('password')
-		form = UserCreationForm(request.POST)
+		form = UserForm(request.POST)
 		if form.is_valid():
 			form.save()
 			username = form.cleaned_data['username']
-			password = form.cleaned_data['password2']
+			password = form.cleaned_data['password']
 			user = auth.authenticate(username=username, password=password)
-			auth.login(request, user)
+			#print form.cleaned_data
+			#print user
+			if user is not None:
+				auth.login(request, user)
 			return redirect('/')
 	else:
-		form = UserCreationForm()
+		form = UserForm()
 	return render(request, 'signup.html', {
 		'form': form,
 	})

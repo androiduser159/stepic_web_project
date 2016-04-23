@@ -22,7 +22,6 @@ class Question(models.Model):
 class Answer(models.Model):
 	text = models.TextField()
 	added_at = models.DateTimeField(auto_now_add = True)
-	#question = models.IntegerField()
 	question = models.ForeignKey(Question)
 	author = models.ForeignKey(User, related_name = 'answer_author')
 	class Meta:
@@ -34,10 +33,13 @@ class Answer(models.Model):
 	def get_url(self):
 		return reverse('question', kwargs={'q_id': self.question.id})
 
-class User(models.Model):
-	username = models.CharField(max_length=100, unique=True)
-	email = models.EmailField()
-	password = models.CharField(max_length=100)
+#class User(models.Model):
+#	username = models.CharField(max_length=30, unique=True)
+#	email = models.EmailField()
+#	password = models.CharField(max_length=100)
+#
+#	def __unicode__(self):
+#		return self.username
 
 #class Session(models.Model):
 #	key = models.CharField(max_length=100, unique=True)

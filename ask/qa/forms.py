@@ -1,5 +1,6 @@
 from django import forms
 from qa.models import Question, Answer
+from django.contrib.auth.models import User
 
 class AskForm(forms.Form):
 	title = forms.CharField(max_length=100)
@@ -13,8 +14,7 @@ class AskForm(forms.Form):
 
 	def save(self):
 		question = Question(**self.cleaned_data)
-		#question.author_id = 1
-		#question.author = self.author
+		self.cleaned_data['author'] = self._user	
 		question.save()
 		return question
 	
@@ -30,25 +30,23 @@ class AnswerForm(forms.Form):
 		return self.cleaned_data
 
 	def save(self):
-		#print self.cleaned_data['question']
 		self.cleaned_data['question'] = Question.objects.get(id=self.cleaned_data['question'])
 		self.cleaned_data['author'] = self._user	
 		#print self.cleaned_data
 		answer = Answer(**self.cleaned_data)
-#		answer.author_id = 1
-		#answer.author = self.author
 		answer.save()
 		return answer
 
 class UserForm(forms.Form):
 	username = forms.CharField(max_length=100)
-	email = forms.EmailField()
-	password = forms.CharField()
+	email = forms.EmailField(widget=forms.EmailInput)
+	password = forms.CharField(widget=forms.PasswordInput())
 
 	def clean(self):
 		self.cleaned_data = super(UserForm, self).clean()
 		return self.cleaned_data
 
 	def save(self):
-		user = User(**self.cleaned_data)
+		user = User.objects.create_user(**self.cleaned_data)
+		user.save()
 		return user
